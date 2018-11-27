@@ -18,7 +18,7 @@ protected/file.foo
 ```
 Direct access to a file inside another folder:
 ```
-getfile.php/folder/file.foo
+getfile.php?file=/folder/file.foo
 ```
 With .htaccess rewrite:
 ```
