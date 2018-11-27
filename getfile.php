@@ -20,8 +20,8 @@ if($_GET['cache']==false){
 	//remove ../ from url to make more secure
 	$filename=str_replace('../', '', $_GET['file']);
 
-	//specify path from name
-	$filepath="../../protected/".$filename;
+	//specify path from name (file path outside of public folder)
+	$filepath="../protected/".$filename;
 
 	//if a file exists in url
 	if(is_file($filepath)){
