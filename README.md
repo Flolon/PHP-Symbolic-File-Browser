@@ -16,11 +16,7 @@ With .htaccess rewrite:
 ```
 protected/file.foo
 ```
-Direct access to a file inside another folder:
-```
-getfile.php?file=/folder/file.foo
-```
-With .htaccess rewrite:
+Direct access to a file inside another folder with .htaccess rewrite:
 ```
 protected/folder/file.foo
 ```
