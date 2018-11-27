@@ -7,7 +7,7 @@
 //* the code above can be used to restric access with php sessions
 
 header('X-Frame-Options: SAMEORIGIN');
-// top //
+// for a little bit of security //
 
 //check for cache params (optional)
 if($_GET['cache']==false){
