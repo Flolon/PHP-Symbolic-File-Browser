@@ -1,7 +1,7 @@
 <?php
 //session_start();
 //if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
-//  header("location: /benworld/login");
+//  header("location: /login");
 //  exit;
 //}
 //* the code above can be used to restric access with php sessions
